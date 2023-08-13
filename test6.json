@@ -1,0 +1,1011 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.1",
+    "title": "User Core API Documentation",
+    "description": "User Core API Endpoints Documentation"
+  },
+  "definitions": {},
+  "paths": {
+    "/services/user/v1.0/healthcheck": {
+      "get": { "responses": { "200": { "description": "Default Response" } } }
+    },
+    "/services/user/v1.0/profile": {
+      "post": {
+        "summary": "user create v1.0 >> User management",
+        "description": "user create",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": { "type": "string", "maxLength": 544 },
+                "firstname": { "type": "string", "maxLength": 544 },
+                "lastname": { "type": "string", "maxLength": 544 },
+                "image": { "type": "string", "maxLength": 544 },
+                "status": { "type": "string", "maxLength": 544 },
+                "attributes": { "type": "object", "properties": {} }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      },
+      "put": {
+        "summary": "user profile update v1.0 >> User management",
+        "description": "user update",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": { "type": "string", "maxLength": 544 },
+                "firstname": { "type": "string", "maxLength": 544 },
+                "lastname": { "type": "string", "maxLength": 544 },
+                "image": { "type": "string", "maxLength": 544 },
+                "attributes": { "type": "object", "properties": {} }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      },
+      "get": {
+        "summary": "user inquiry v1.0 >> User management",
+        "description": "User inquiry (own access)",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/attribute/{key}": {
+      "get": {
+        "summary": "User Attribute inquiry v1.0 >> attribute management",
+        "description": "User Attributes inquiry",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "pattern": "^[A-Za-z]([0-9A-Za-z_]+)?$",
+            "example": "test",
+            "required": true,
+            "in": "path",
+            "name": "key"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/attribute/{id}": {
+      "delete": {
+        "summary": "User Attribute inquiry v1.0 >> attribute management",
+        "description": "User Attribute removal",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "id"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      },
+      "put": {
+        "summary": "attribute update v1.0 >> attribute management",
+        "description": "attribute update",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "keyfield": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z]([0-9A-Za-z_]+)?$",
+                  "example": "test"
+                },
+                "valueType": {
+                  "type": "string",
+                  "enum": ["NUMBER", "OBJECT", "STRING", "BOOLEAN"]
+                },
+                "accessType": {
+                  "type": "string",
+                  "enum": ["PRIVATE", "SHARED", "PUBLIC"]
+                },
+                "zone": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "uuid",
+                    "description": "uuid"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "id"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/profile/attribute/{attributeKey}": {
+      "delete": {
+        "summary": "User: Attribute removal (own access)",
+        "description": "User: Attribute removal (own access)",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "pattern": "^[A-Za-z]([0-9A-Za-z_]+)?$",
+            "example": "test",
+            "required": true,
+            "in": "path",
+            "name": "attributeKey"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/attribute": {
+      "post": {
+        "summary": "Create private attribute v1.0 >> attribute management",
+        "description": "Create private attribute",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "keyfield": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z]([0-9A-Za-z_]+)?$",
+                  "example": "test"
+                },
+                "valueType": {
+                  "type": "string",
+                  "enum": ["NUMBER", "OBJECT", "STRING", "BOOLEAN"]
+                },
+                "accessType": {
+                  "type": "string",
+                  "enum": ["PRIVATE", "SHARED", "PUBLIC"]
+                },
+                "clientId": { "type": "string", "maxLength": 544 }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/preregister": {
+      "delete": {
+        "summary": "user Pre-Register Removal v1.0 >> User management",
+        "description": "user Pre-Register Removal",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": false,
+            "in": "query",
+            "name": "profileId"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/club/referee": {
+      "get": {
+        "summary": "Club referee inquiry v1.0 >> User management",
+        "description": "Club referee inquiry",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/{userId}/profile/attribute": {
+      "put": {
+        "summary": "User Attribute append v1.0 >> attribute management",
+        "description": "User Attribute append",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": { "type": "object", "properties": {} }
+          },
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "userId"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/profile/attribute": {
+      "put": {
+        "summary": "User Attribute append v1.0 >> attribute management",
+        "description": "User Attribute append (own access)",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": { "type": "object", "properties": {} }
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/{userId}/profile/attribute/{key}": {
+      "delete": {
+        "summary": "User Attribute removal v1.0 >> attribute management",
+        "description": "User Attribute Removal",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "userId"
+          },
+          {
+            "type": "string",
+            "pattern": "^[A-Za-z]([0-9A-Za-z_]+)?$",
+            "example": "test",
+            "required": true,
+            "in": "path",
+            "name": "key"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/{userId}/profile/attributes": {
+      "get": {
+        "summary": "user inquiry (Own Access) v1.0 >> User management",
+        "description": "User Inquiry Own Access",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "userId"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/profile/attributes": {
+      "get": {
+        "summary": "user inquiry (Own Access) v1.0 >> User management",
+        "description": "User Inquiry Own Access",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/{userId}/profile": {
+      "get": {
+        "summary": "user inquiry v1.0 >> User management",
+        "description": "User inquiry",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "userId"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      },
+      "put": {
+        "summary": "user update v1.0 >> User management",
+        "description": "user update",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": { "type": "string", "maxLength": 544 },
+                "firstname": { "type": "string", "maxLength": 544 },
+                "lastname": { "type": "string", "maxLength": 544 },
+                "image": { "type": "string", "maxLength": 544 },
+                "status": { "type": "string", "maxLength": 544 }
+              }
+            }
+          },
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "userId"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/profile/msisdn": {
+      "get": {
+        "summary": "user inquiry by msisdn v1.0 >> User management",
+        "description": "user inquiry by msisdn",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "msisdn",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/{userId}/status/{status}": {
+      "put": {
+        "summary": "user update v1.0 >> User management",
+        "description": "user status update",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "userId"
+          },
+          {
+            "type": "string",
+            "enum": ["ACTIVE", "INACTIVE", "BLOCKED"],
+            "example": "ACTIVE",
+            "required": true,
+            "in": "path",
+            "name": "status"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/profiles": {
+      "get": {
+        "summary": "users inquiry v1.0 >> User management",
+        "description": "Users inquiry",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "pattern": "^[0-9]{4}-([0][0-9]|[1][0-2])-([0-2][0-9]|[3][0-1])T([0-1][0-9]|[2][0-3]):[0-5][0-9]:[0-5][0-9]$",
+            "example": "2020-01-01T00:00:00",
+            "required": false,
+            "in": "query",
+            "name": "from"
+          },
+          {
+            "type": "string",
+            "pattern": "^[0-9]{4}-([0][0-9]|[1][0-2])-([0-2][0-9]|[3][0-1])T([0-1][0-9]|[2][0-3]):[0-5][0-9]:[0-5][0-9]$",
+            "example": "2020-01-01T00:00:00",
+            "required": false,
+            "in": "query",
+            "name": "to"
+          },
+          {
+            "type": "integer",
+            "minimum": 0,
+            "default": 0,
+            "example": 0,
+            "required": false,
+            "in": "query",
+            "name": "start"
+          },
+          {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000,
+            "default": 100,
+            "example": 100,
+            "required": false,
+            "in": "query",
+            "name": "size"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/zone": {
+      "post": {
+        "summary": "zone create v1.0 >> Zone management",
+        "description": "zone create",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "clients": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "format": "uuid",
+                      "description": "uuid"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/v1.0/zone/{id}": {
+      "get": {
+        "summary": "zone inquiry v1.0 >> Zone management",
+        "description": "zone inquiry",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "id"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      },
+      "delete": {
+        "summary": "zone removal v1.0 >> Zone management",
+        "description": "zone removal",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "type": "string",
+            "format": "uuid",
+            "description": "uuid",
+            "required": true,
+            "in": "path",
+            "name": "id"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      },
+      "put": {
+        "summary": "zone update v1.0 >> Zone management",
+        "description": "zone update",
+        "tags": ["User management"],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "clients": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "format": "uuid",
+                      "description": "uuid"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "header",
+            "name": "transactionId",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/attribute/v1.0/all": {
+      "get": {
+        "summary": "User Attribute inquiry v1.0 >> attribute management",
+        "description": "User Attributes inquiry",
+        "tags": ["Attribute management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/club/v1.0/{serviceCode}/active": {
+      "put": {
+        "summary": "Club activate own access v1.0 >> User management",
+        "description": "Club activate own access",
+        "tags": ["Clubs management"],
+        "parameters": [
+          {
+            "type": "string",
+            "maxLength": 544,
+            "required": true,
+            "in": "path",
+            "name": "serviceCode"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/club/v1.0/{serviceCode}/deactive": {
+      "put": {
+        "summary": "Club deactivate own access v1.0 >> User management",
+        "description": "Club deactivate own access",
+        "tags": ["Clubs management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/club/v1.0/{serviceCode}/otp/{code}": {
+      "delete": {
+        "summary": "User: Club deregister (own access)",
+        "description": "User: Club deregister (own access)",
+        "tags": ["Clubs management"],
+        "parameters": [
+          {
+            "type": "string",
+            "maxLength": 544,
+            "required": true,
+            "in": "path",
+            "name": "serviceCode"
+          },
+          {
+            "type": "string",
+            "maxLength": 544,
+            "required": true,
+            "in": "path",
+            "name": "code"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      },
+      "post": {
+        "summary": "Club register by otp v1.0 >> User management",
+        "description": "Club register by otp own access",
+        "tags": ["Clubs management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/club/v1.0/{serviceCode}/like": {
+      "post": {
+        "summary": "User: club likes increase",
+        "description": "User: club likes increase",
+        "tags": ["Clubs management"],
+        "parameters": [
+          {
+            "type": "string",
+            "maxLength": 544,
+            "required": true,
+            "in": "path",
+            "name": "serviceCode"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/club/v1.0/approve/voucher": {
+      "get": {
+        "summary": "Club registered user check v1.0 >> User management",
+        "description": "Club registered user check",
+        "tags": ["Clubs management"],
+        "parameters": [
+          {
+            "type": "string",
+            "maxLength": 544,
+            "required": false,
+            "in": "query",
+            "name": "serviceCode"
+          },
+          {
+            "type": "string",
+            "maxLength": 544,
+            "required": false,
+            "in": "query",
+            "name": "voucher"
+          },
+          {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 10,
+            "pattern": "^[0-9]{10}$",
+            "example": "0070000001",
+            "required": false,
+            "in": "query",
+            "name": "nationalCode"
+          },
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    },
+    "/services/user/zone/v1.0/all": {
+      "get": {
+        "summary": "zones inquiry v1.0 >> Zone management",
+        "description": "zones inquiry",
+        "tags": ["zone management"],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": { "200": { "description": "Default Response" } }
+      }
+    }
+  },
+  "consumes": ["application/json"],
+  "produces": ["application/json"]
+}

@@ -1,0 +1,4 @@
+const vmess2config = require('./node_modules/v2ray-tools/src/vmess2config')
+
+const base =`vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJkZS12MnJheS5mcmVldm1lc3MuY29tIiwKICAiYWRkIjogImRlLXYycmF5LmZyZWV2bWVzcy5jb20iLAogICJwb3J0IjogODQ0MiwKICAiaWQiOiAiMzg5OTFkM2MtZjNmZi00OGJjLWI1YjctOThlNWRjZmUxZjBkIiwKICAiYWlkIjogMCwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiAiaHR0cCIsCiAgImhvc3QiOiAiIiwKICAicGF0aCI6ICIvIiwKICAidGxzIjogIm5vbmUiCn0=`
+console.log(vmess2config(base, '51.38.99.96', '8442', null))

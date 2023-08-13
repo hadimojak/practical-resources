@@ -1,0 +1,1647 @@
+[
+  {
+    "FREE_UNIT_TYPE_CODE": "FREE_UNIT_TYPE_CODE",
+    "FREE_UNIT_TYPE_NAME": "FREE_UNIT_TYPE_NAME",
+    "Service_Name": "Service Name",
+    "Type": "Type",
+    "Unit": "Unit"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10001",
+    "FREE_UNIT_TYPE_NAME": "Post_Onnet_Voice_Duration",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10002",
+    "FREE_UNIT_TYPE_NAME": "Post_Onnet_SMS",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10003",
+    "FREE_UNIT_TYPE_NAME": "Post_Onnet_SMS_FA",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10005",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS_Night",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10015",
+    "FREE_UNIT_TYPE_NAME": "Onnet ISDN Call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10021",
+    "FREE_UNIT_TYPE_NAME": "Yalda_Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10022",
+    "FREE_UNIT_TYPE_NAME": "Yalda_Onnet Call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10023",
+    "FREE_UNIT_TYPE_NAME": "Yalda_SMS dakhele shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10024",
+    "FREE_UNIT_TYPE_NAME": "GPRS_Gift",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10036",
+    "FREE_UNIT_TYPE_NAME": "Voice_Onnet",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_20001",
+    "FREE_UNIT_TYPE_NAME": "CALL_BONUS Onnet",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_20002",
+    "FREE_UNIT_TYPE_NAME": "CALL_BONUS Offnet",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_20003",
+    "FREE_UNIT_TYPE_NAME": "GPRS_BONUS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_20004",
+    "FREE_UNIT_TYPE_NAME": "GPRS_NIGHT_BONUS",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4000",
+    "FREE_UNIT_TYPE_NAME": "Onnet Call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4009",
+    "FREE_UNIT_TYPE_NAME": "free duration for RD",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4013",
+    "FREE_UNIT_TYPE_NAME": "FreeTime_Local_Call_Subaccount",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4031",
+    "FREE_UNIT_TYPE_NAME": "free time offnet calling",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4033",
+    "FREE_UNIT_TYPE_NAME": "free time offoronnet calling",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_4100",
+    "FREE_UNIT_TYPE_NAME": "onnet call bonus",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41003",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free duration for international roaming call",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41004",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free duration for RD",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41005",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free items for international roaming sms",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41006",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free time offoronnet calling",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41007",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free times for fnmodify",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41008",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free times for hzmodify",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41009",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free times for modify SubcosID",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41010",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free times for offnet call",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41011",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free times for offoronnet call",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41013",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free times for onnet call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41014",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free times for query balance",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41020",
+    "FREE_UNIT_TYPE_NAME": "Taliya_free time offnet calling",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41023",
+    "FREE_UNIT_TYPE_NAME": "Taliya_onnet MMS",
+    "Service_Name": "MMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41024",
+    "FREE_UNIT_TYPE_NAME": "Taliya_Payamak Dakhele Shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41025",
+    "FREE_UNIT_TYPE_NAME": "Taliya_prm inter sms subaccount",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41029",
+    "FREE_UNIT_TYPE_NAME": "Taliya_SMS dakhele shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41030",
+    "FREE_UNIT_TYPE_NAME": "Taliya_SMS Dakhele-Shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41031",
+    "FREE_UNIT_TYPE_NAME": "Taliya_SMS dakhele-Shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_41032",
+    "FREE_UNIT_TYPE_NAME": "Taliya_SMS Farsi",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4202",
+    "FREE_UNIT_TYPE_NAME": "prm inter sms subaccount",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4203",
+    "FREE_UNIT_TYPE_NAME": "PRM_OfforOnNet_SMS_Subaccount",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4300",
+    "FREE_UNIT_TYPE_NAME": "onnet_DTS",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4303",
+    "FREE_UNIT_TYPE_NAME": "MMS",
+    "Service_Name": "MMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4400",
+    "FREE_UNIT_TYPE_NAME": "free times for onnet call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4401",
+    "FREE_UNIT_TYPE_NAME": "free times for offnet call",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4403",
+    "FREE_UNIT_TYPE_NAME": "free times for offoronnet call",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4430",
+    "FREE_UNIT_TYPE_NAME": "free times for fnmodify",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4440",
+    "FREE_UNIT_TYPE_NAME": "free times for hzmodify",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4450",
+    "FREE_UNIT_TYPE_NAME": "free times for query balance",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4500",
+    "FREE_UNIT_TYPE_NAME": "GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5001",
+    "FREE_UNIT_TYPE_NAME": "FreeTime_LocalCallOnNet_SubAccount",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5002",
+    "FREE_UNIT_TYPE_NAME": "SMS Dakhele-Shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5003",
+    "FREE_UNIT_TYPE_NAME": "free duration for international roaming call",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5004",
+    "FREE_UNIT_TYPE_NAME": "free items for international roaming sms",
+    "Service_Name": "SMS",
+    "Type": "ROAMING",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5005",
+    "FREE_UNIT_TYPE_NAME": "SMS Farsi",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5007",
+    "FREE_UNIT_TYPE_NAME": "Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5008",
+    "FREE_UNIT_TYPE_NAME": "MMS for TGIF",
+    "Service_Name": "MMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5010",
+    "FREE_UNIT_TYPE_NAME": "SMS dakhele shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5013",
+    "FREE_UNIT_TYPE_NAME": "onnet offnet voice",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5014",
+    "FREE_UNIT_TYPE_NAME": "FreeTime_Local_NationToll_Call_Subaccount",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5015",
+    "FREE_UNIT_TYPE_NAME": "SMS offnet onnet",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5016",
+    "FREE_UNIT_TYPE_NAME": "onnet offfpeak sms",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5020",
+    "FREE_UNIT_TYPE_NAME": "Special Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5021",
+    "FREE_UNIT_TYPE_NAME": "Special Data for Wifi",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_5022",
+    "FREE_UNIT_TYPE_NAME": "unlimited data_Setareh 1000",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5026",
+    "FREE_UNIT_TYPE_NAME": "on net SMS",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5028",
+    "FREE_UNIT_TYPE_NAME": "Data_Hamrahi_Bundle",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5030",
+    "FREE_UNIT_TYPE_NAME": "Internal_Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5040",
+    "FREE_UNIT_TYPE_NAME": "TaliyaData",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5041",
+    "FREE_UNIT_TYPE_NAME": "Gift Nightly DataTaliya",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5042",
+    "FREE_UNIT_TYPE_NAME": "TaliyaOnnet Call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5043",
+    "FREE_UNIT_TYPE_NAME": "TaliyaSMS",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5045",
+    "FREE_UNIT_TYPE_NAME": "GPRS_DTS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_6000",
+    "FREE_UNIT_TYPE_NAME": "SFE_Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_6001",
+    "FREE_UNIT_TYPE_NAME": "Onnet_Call_FNF",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_769610520",
+    "FREE_UNIT_TYPE_NAME": "Onnet SMS Hamrahi Bundle",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_7838",
+    "FREE_UNIT_TYPE_NAME": "CUT_BONUS",
+    "Service_Name": "UNKNOWN",
+    "Type": "UNKNOWN",
+    "Unit": "Unknown "
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_9001",
+    "FREE_UNIT_TYPE_NAME": "onnet_sms_parsian",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_9002",
+    "FREE_UNIT_TYPE_NAME": "Data_Parsian",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_9003",
+    "FREE_UNIT_TYPE_NAME": "Nightlydata0208_parsian",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_9005",
+    "FREE_UNIT_TYPE_NAME": "Parsiany_voice",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_9006",
+    "FREE_UNIT_TYPE_NAME": "Voice_Parsian_to_MCI",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_9007",
+    "FREE_UNIT_TYPE_NAME": "Voice_Parsian_to_Offnet",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Amoozesh",
+    "FREE_UNIT_TYPE_NAME": "Amoozesh",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Anten",
+    "FREE_UNIT_TYPE_NAME": "Anten",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Aparat",
+    "FREE_UNIT_TYPE_NAME": "Aparat",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Data_80PC",
+    "FREE_UNIT_TYPE_NAME": "Data_80PC",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_FreeGPRSby2G3G",
+    "FREE_UNIT_TYPE_NAME": "FreeGPRSby2G3G_test",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_FreeTime_GPRS_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "FreeTime_GPRS_Subaccount",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_FreeTime_NationToll_Call_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "FreeTime_NationToll_Call_Subaccount",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_FreeTimes_SubcosidModify_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "free times for modify SubcosID",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_FUP",
+    "FREE_UNIT_TYPE_NAME": "FUP",
+    "Service_Name": "UNKNOWN",
+    "Type": "UNKNOWN",
+    "Unit": "Unknown "
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Gift_Universal_Roam_Data",
+    "FREE_UNIT_TYPE_NAME": "Gift_Universal_Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_GPRS_BONUS_APN",
+    "FREE_UNIT_TYPE_NAME": "GPRS_BONUS_APN",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_HamrahiMonday",
+    "FREE_UNIT_TYPE_NAME": "HamrahiMonday",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Limited_Mornings_Data",
+    "FREE_UNIT_TYPE_NAME": "Limited_Mornings_Data",
+    "Service_Name": "INTERNET",
+    "Type": "SOBHANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Limited_Nightly_Data",
+    "FREE_UNIT_TYPE_NAME": "Limited_Nightly_Data",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_MCI_SE",
+    "FREE_UNIT_TYPE_NAME": "MCI_SE",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_MyKet",
+    "FREE_UNIT_TYPE_NAME": "MyKet",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_National_GPRS",
+    "FREE_UNIT_TYPE_NAME": "National_GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Nightly_Data",
+    "FREE_UNIT_TYPE_NAME": "Gift Nightly Data",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Nightly_Data_2308",
+    "FREE_UNIT_TYPE_NAME": "Nightly_Data_23-08",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Noor",
+    "FREE_UNIT_TYPE_NAME": "Noor",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Payamak_Dakhele_Shabakeh",
+    "FREE_UNIT_TYPE_NAME": "Payamak Dakhele Shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Post_GPRS",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Post_GPRS_80PC",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS_80PC",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Post_GPRS_Wifi",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS_Wifi",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_PRM_OffNet_MMS_Item",
+    "FREE_UNIT_TYPE_NAME": "PRM_OffNet_MMS_Item",
+    "Service_Name": "MMS",
+    "Type": "OFFNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_PRM_OffNet_SMS_Item",
+    "FREE_UNIT_TYPE_NAME": "PRM_OffNet_SMS_Item",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_PRM_OnNet_MMS_Item",
+    "FREE_UNIT_TYPE_NAME": "onnet MMS",
+    "Service_Name": "MMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Roam_Data",
+    "FREE_UNIT_TYPE_NAME": "Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Roam_MOC_IRAN",
+    "FREE_UNIT_TYPE_NAME": "Roam_MOC_IRAN",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Roam_MOC_National",
+    "FREE_UNIT_TYPE_NAME": "Roam_MOC_National",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Roam_MT",
+    "FREE_UNIT_TYPE_NAME": "Roam_MT",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Roam_SMS_MO",
+    "FREE_UNIT_TYPE_NAME": "Roam_SMS_MO",
+    "Service_Name": "SMS",
+    "Type": "ROAMING",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Segal",
+    "FREE_UNIT_TYPE_NAME": "Segal",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_SMS_dakhele_Shabakeh",
+    "FREE_UNIT_TYPE_NAME": "SMS dakhele-Shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Special_GPRS",
+    "FREE_UNIT_TYPE_NAME": "Special_GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_ALL_BONUS_Offnet",
+    "FREE_UNIT_TYPE_NAME": "Taliya_ALL_BONUS_Offnet",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_CALL_BONUS_Onnet",
+    "FREE_UNIT_TYPE_NAME": "Taliya_CALL_BONUS Onnet",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_Data",
+    "FREE_UNIT_TYPE_NAME": "Taliya_Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_FreeTime_GPRS_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "Taliya_FreeTime_GPRS_Subaccount",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_FreeTime_Local_Call_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "Taliya_FreeTime_Local_Call_Subaccount",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_FreeTime_Local_NationToll_Call_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "Taliya_FreeTime_Local_NationToll_Call_Subaccount",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_FreeTime_LocalCallOnNet_SubAccount",
+    "FREE_UNIT_TYPE_NAME": "Taliya_FreeTime_LocalCallOnNet_SubAccount",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_FreeTime_NationToll_Call_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "Taliya_FreeTime_NationToll_Call_Subaccount",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_GPRS",
+    "FREE_UNIT_TYPE_NAME": "Taliya_GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_GPRS_BONUS",
+    "FREE_UNIT_TYPE_NAME": "Taliya_GPRS_BONUS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_GPRS_NIGHT_BONUS",
+    "FREE_UNIT_TYPE_NAME": "Taliya_GPRS_NIGHT_BONUS",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_MMS",
+    "FREE_UNIT_TYPE_NAME": "Taliya_MMS",
+    "Service_Name": "MMS",
+    "Type": "NORMAL",
+    "Unit": null
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_Onet_Call",
+    "FREE_UNIT_TYPE_NAME": "Taliya_Onnet_Call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_PRM_OffNet_MMS_Item",
+    "FREE_UNIT_TYPE_NAME": "Taliya_PRM_OffNet_MMS_Item",
+    "Service_Name": "MMS",
+    "Type": "OFFNET",
+    "Unit": null
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_PRM_OffNet_SMS_Item",
+    "FREE_UNIT_TYPE_NAME": "Taliya_PRM_OffNet_SMS_Item",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Taliya_PRM_OfforOnNet_SMS_Subaccount",
+    "FREE_UNIT_TYPE_NAME": "Taliya_PRM_OfforOnNet_SMS_Subaccount",
+    "Service_Name": "SMS",
+    "Type": "NORMAL",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Talkative_days",
+    "FREE_UNIT_TYPE_NAME": "Talkative days",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_test",
+    "FREE_UNIT_TYPE_NAME": "test acct",
+    "Service_Name": "UNKNOWN",
+    "Type": "UNKNOWN",
+    "Unit": "Unknown "
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_Data",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_MOC_IRAN",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_MOC_IRAN",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_MOC_National",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_MOC_National",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_MT",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_MT",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_SMS_MO_IRAN",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_SMS_MO_IRAN",
+    "Service_Name": "SMS",
+    "Type": "ROAMING",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Unlimited_Daily_Data_1_to_11",
+    "FREE_UNIT_TYPE_NAME": "Unlimited Daily Data 1 to 11",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_unlimited_nightly_data",
+    "FREE_UNIT_TYPE_NAME": "unlimited nightly data",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "c_Varzesh3",
+    "FREE_UNIT_TYPE_NAME": "Varzesh3",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Voice_Offnet_Onnet",
+    "FREE_UNIT_TYPE_NAME": "Voice_Offnet_Onnet",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_WorldCup",
+    "FREE_UNIT_TYPE_NAME": "WorldCup",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Youth",
+    "FREE_UNIT_TYPE_NAME": "Youth",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "Free_Inter_networkSMSATP",
+    "FREE_UNIT_TYPE_NAME": "Free Inter-network SMS",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "Freetimeinternetworkcall",
+    "FREE_UNIT_TYPE_NAME": "Free time inter-network call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "slm_test",
+    "FREE_UNIT_TYPE_NAME": "slm_test",
+    "Service_Name": "UNKNOWN",
+    "Type": "UNKNOWN",
+    "Unit": "Unknown "
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "T_Free_GPRS_Afterwork",
+    "FREE_UNIT_TYPE_NAME": "Test_Free_GPRS_Afterwork",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "Test_C_Afternoon_Data",
+    "FREE_UNIT_TYPE_NAME": "Test_Free_GPRS_Afternoon",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "Test_C_Morning_Data",
+    "FREE_UNIT_TYPE_NAME": "Test_Free_GPRS_Morning",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "unlimited_onnet_call",
+    "FREE_UNIT_TYPE_NAME": "Unlimited Onnet Call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Post_GPRS_NoDisc",
+    "FREE_UNIT_TYPE_NAME": "Internet Data Free",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Data_NoDisc",
+    "FREE_UNIT_TYPE_NAME": "Internet_Data_Free",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_WorldCup_NoDisc",
+    "FREE_UNIT_TYPE_NAME": "Internet_Gift",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_Data",
+    "FREE_UNIT_TYPE_NAME": "Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_MO_MT",
+    "FREE_UNIT_TYPE_NAME": "Roaming Call",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_HamrahiMonday_Voice",
+    "FREE_UNIT_TYPE_NAME": "Onnet_Call",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_General_Roam_Data",
+    "FREE_UNIT_TYPE_NAME": "Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2500",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2503",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2506",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2509",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2510",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2511",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2530",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15001",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15002",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15003",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15004",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15005",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15006",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15007",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_15008",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "CREDIT",
+    "Type": "ONNET",
+    "Unit": "Rial"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_2018",
+    "FREE_UNIT_TYPE_NAME": "WorldCup",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5012",
+    "FREE_UNIT_TYPE_NAME": "Gift Nightly Data",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5018",
+    "FREE_UNIT_TYPE_NAME": "unlimited nightly data",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5019",
+    "FREE_UNIT_TYPE_NAME": "Unlimited Daily Data 1 to 11",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5023",
+    "FREE_UNIT_TYPE_NAME": "Nightly_Data_23-08",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10004",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10006",
+    "FREE_UNIT_TYPE_NAME": "GPRS_BONUS_APN",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10007",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS_Wifi",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10012",
+    "FREE_UNIT_TYPE_NAME": "Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10013",
+    "FREE_UNIT_TYPE_NAME": "Limited_Nightly_Data",
+    "Service_Name": "INTERNET",
+    "Type": "SHABANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10014",
+    "FREE_UNIT_TYPE_NAME": "Limited_Mornings_Data",
+    "Service_Name": "INTERNET",
+    "Type": "SOBHANET",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10016",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_MOC_IRAN",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10017",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_MOC_National",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10018",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_SMS_MO_IRAN",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10019",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10020",
+    "FREE_UNIT_TYPE_NAME": "Universal_Roam_MT",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10025",
+    "FREE_UNIT_TYPE_NAME": "Anten",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10026",
+    "FREE_UNIT_TYPE_NAME": "Varzesh3",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10027",
+    "FREE_UNIT_TYPE_NAME": "Aparat",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10028",
+    "FREE_UNIT_TYPE_NAME": "MyKet",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10029",
+    "FREE_UNIT_TYPE_NAME": "Segal",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10030",
+    "FREE_UNIT_TYPE_NAME": "HamrahiMonday",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10032",
+    "FREE_UNIT_TYPE_NAME": "Youth",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10033",
+    "FREE_UNIT_TYPE_NAME": "Special_GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10035",
+    "FREE_UNIT_TYPE_NAME": "Gift_Universal_Roam_Data",
+    "Service_Name": "INTERNET",
+    "Type": "ROAMING",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10037",
+    "FREE_UNIT_TYPE_NAME": "National_GPRS",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10038",
+    "FREE_UNIT_TYPE_NAME": "Data_80PC",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10039",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS_80PC",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10042",
+    "FREE_UNIT_TYPE_NAME": "MCI_SE",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10043",
+    "FREE_UNIT_TYPE_NAME": "Amoozesh",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10044",
+    "FREE_UNIT_TYPE_NAME": "Data_NoDisc",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10045",
+    "FREE_UNIT_TYPE_NAME": "Special_Content_Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10049",
+    "FREE_UNIT_TYPE_NAME": "Post_GPRS_NoDisc",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10050",
+    "FREE_UNIT_TYPE_NAME": "WorldCup_NoDisc",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10051",
+    "FREE_UNIT_TYPE_NAME": "Youth_NoDisc",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_1427242932",
+    "FREE_UNIT_TYPE_NAME": "Noor",
+    "Service_Name": "INTERNET",
+    "Type": "IXP",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4301",
+    "FREE_UNIT_TYPE_NAME": "onnet MMS",
+    "Service_Name": "MMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_4200",
+    "FREE_UNIT_TYPE_NAME": "SMS dakhele-Shabakeh",
+    "Service_Name": "SMS",
+    "Type": "ONNET",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10011",
+    "FREE_UNIT_TYPE_NAME": "Roam_SMS_MO",
+    "Service_Name": "SMS",
+    "Type": "ROAMING",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5011",
+    "FREE_UNIT_TYPE_NAME": "Talkative days",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_5017",
+    "FREE_UNIT_TYPE_NAME": "Unlimited Onnet Call",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10034",
+    "FREE_UNIT_TYPE_NAME": "Voice_Offnet_Onnet",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10046",
+    "FREE_UNIT_TYPE_NAME": "Voice_Offnet",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10048",
+    "FREE_UNIT_TYPE_NAME": "Loan_Voice",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_10052",
+    "FREE_UNIT_TYPE_NAME": "HamrahiMonday_Voice",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_1999407257",
+    "FREE_UNIT_TYPE_NAME": "UNKNOWN",
+    "Service_Name": "VOICE",
+    "Type": "ONNET",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Special_Content_Data",
+    "FREE_UNIT_TYPE_NAME": "Special Content Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Gift_Universal_Roam_SMS_MO_IRAN",
+    "FREE_UNIT_TYPE_NAME": "Gift_Universal_Roam_SMS_MO",
+    "Service_Name": "SMS",
+    "Type": "ROAMING",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Voice_Offnet",
+    "FREE_UNIT_TYPE_NAME": "Voice_Offnet",
+    "Service_Name": "VOICE",
+    "Type": "NORMAL",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Youth_NoDisc",
+    "FREE_UNIT_TYPE_NAME": "Youth",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Universal_Roam_MO_MT",
+    "FREE_UNIT_TYPE_NAME": "Roaming Call Gift",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_NG_Universal_Roam_MO_MT",
+    "FREE_UNIT_TYPE_NAME": "NG_Universal_Roam_MO_MT",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Gift_Universal_Roam_SMS_MO_IRAN",
+    "FREE_UNIT_TYPE_NAME": "Gift_Universal_Roam_SMS_MO_IRAN",
+    "Service_Name": "SMS",
+    "Type": "ROAMING",
+    "Unit": "Count"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Special_Content_Data",
+    "FREE_UNIT_TYPE_NAME": "Special_Content_Data",
+    "Service_Name": "INTERNET",
+    "Type": "NORMAL",
+    "Unit": "Bytes"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_International_Toll_Voice",
+    "FREE_UNIT_TYPE_NAME": "International Call",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": "C_Gift_International_Toll_Voice",
+    "FREE_UNIT_TYPE_NAME": "International Call Gift",
+    "Service_Name": "VOICE",
+    "Type": "ROAMING",
+    "Unit": "Second"
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": null,
+    "FREE_UNIT_TYPE_NAME": null,
+    "Service_Name": null,
+    "Type": null,
+    "Unit": null
+  },
+  {
+    "FREE_UNIT_TYPE_CODE": null,
+    "FREE_UNIT_TYPE_NAME": null,
+    "Service_Name": null,
+    "Type": null,
+    "Unit": null
+  }
+]

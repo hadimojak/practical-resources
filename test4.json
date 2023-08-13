@@ -1,0 +1,55 @@
+{
+  "Envelope": {
+    "Header": "",
+    "Body": {
+      "queryBarSuspendStatusReasonRspMsg": {
+        "resultHeader": {
+          "version": "3.1.2",
+          "resultCode": 0,
+          "msgLanguageCode": 1213,
+          "resultDesc": "success"
+        },
+        "queryBarSuspendStatusReasonResponse": {
+          "statusNo": 4,
+          "reasonDetails": {
+            "effectiveTime": 20150101000000,
+            "reasonCode": "SuspendResumeReason_10069",
+            "opType": "S002000000000"
+          },
+          "subscriberBasicInfo": {
+            "subsId": 1,
+            "ownerPartyRoleType": 1,
+            "ownerPartyRoleId": 1,
+            "subsName": 1,
+            "subsWrittenLang": 1,
+            "subsVocieLang": 1,
+            "subsLevel": 1,
+            "offeringId": 1,
+            "brand": 1,
+            "primaryIdentity": 1,
+            "usingCustId": 1,
+            "guarantee": 1,
+            "networkType": 1,
+            "defaultAcctId": 1,
+            "paymentType": 1,
+            "imsi": 1,
+            "iccid": 1,
+            "subType": 1,
+            "portFlag": 1,
+            "effDate": 1,
+            "expDate": 1,
+            "activeDate": 1,
+            "status": 1,
+            "statusTime": 1,
+            "statusDetail": 1,
+            "salesChannelType": 1,
+            "salesChannelId": 1,
+            "salesId": 1,
+            "beId": 1,
+            "remark": 1
+          }
+        }
+      }
+    }
+  }
+}

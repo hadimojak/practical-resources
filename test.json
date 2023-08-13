@@ -1,0 +1,81 @@
+{
+  "Envelope": {
+    "Body": {
+      "queryCustomerInfoRspMsg": {
+        "resultHeader": {
+          "version": 1,
+          "resultCode": 0,
+          "resultDesc": "success"
+        },
+        "queryCustomerInfoResponse": {
+          "customer": {
+            "customerId": 8411000169991473,
+            "custBasicInfo": {
+              "custCode": 11000132650008,
+              "custType": 1,
+              "custClass": 1,
+              "partyId": 11000244072284,
+              "regionId": 10101
+            },
+            "individualInfo": {
+              "individualBaseInfo": {
+                "individualId": 11000244072284,
+                "firstName": "هادی",
+                "lastName": "اربابی",
+                "title": 1,
+                "gender": 1,
+                "birthday": "1992-10-10T00:00:00",
+                "nationality": "IRN",
+                "nativePlace": "تهران",
+                "writtenLang": "Persian",
+                "phoneticLang": 4,
+                "individualProperty": [
+                  { "code": "fatherName", "value": "امیرسعید" },
+                  { "code": "birthIDCardNumber", "value": 0 },
+                  { "code": "birthIDCardIssuedPlace", "value": "تهران" }
+                ]
+              },
+              "certificationInfo": {
+                "idType": "NationalID",
+                "idNumber": 15166031
+              }
+            },
+            "addressInfo": {
+              "addressId": 8411000292806054,
+              "preferenceFlag": "Y",
+              "effDate": "2023-07-17T09:38:17",
+              "expDate": "2037-01-01T00:00:00",
+              "addrType": 6010506003,
+              "addressInfo": {
+                "addrId": 8411000292806054,
+                "addrClass": "S",
+                "addr1": "ایران",
+                "addr2": "تهران",
+                "addr3": "تهران",
+                "addr5": "6/39",
+                "addr6": 17,
+                "addr7": 77476898,
+                "usAddr": "پیروزی خ ششم",
+                "postalCode": 1734793931
+              }
+            }
+          },
+          "defaultAccountId": 8411000252918881,
+          "defaultAccount": {
+            "acctCode": 11000130498060,
+            "acctName": "هادی اربابی",
+            "partyId": 11000244072284,
+            "acctType": 1,
+            "acctClass": 1,
+            "paymentType": 1,
+            "currencyId": 1069,
+            "status": 2,
+            "statusTime": "2023-07-17T09:42:22",
+            "dunningFlag": 1,
+            "billLang": "Persian"
+          }
+        }
+      }
+    }
+  }
+}

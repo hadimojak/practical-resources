@@ -1,0 +1,65 @@
+{
+  "Envelope": {
+    "Body": {
+      "queryCustomerInfoRspMsg": {
+        "resultHeader": {
+          "version": 1,
+          "resultCode": 0,
+          "resultDesc": "success"
+        },
+        "queryCustomerInfoResponse": {
+          "customer": {
+            "customerId": 8010012042483185,
+            "custBasicInfo": {
+              "custCode": 42483185,
+              "custType": 1,
+              "custClass": 1,
+              "partyId": 10204248318580,
+              "regionId": 10101
+            },
+            "individualInfo": {
+              "individualBaseInfo": {
+                "individualId": 10204248318580,
+                "firstName": "امیرسعید",
+                "lastName": "اربابی",
+                "title": 1,
+                "gender": 1,
+                "birthday": "1956-05-07T00:00:00",
+                "nationality": "IRN",
+                "nativePlace": "تهران",
+                "occupation": "ocut95",
+                "writtenLang": "Persian",
+                "phoneticLang": 4,
+                "individualProperty": [
+                  { "code": "fatherName", "value": "فضل اله" },
+                  { "code": "birthIDCardNumber", "value": 1710 },
+                  { "code": "birthIDCardIssuedPlace", "value": "تهران" }
+                ]
+              },
+              "certificationInfo": {
+                "idType": "NationalID",
+                "idNumber": 45416435,
+                "issueCountry": "تهران"
+              }
+            },
+            "addressInfo": {
+              "addressId": 8010715000628505,
+              "effDate": "2001-08-29T05:13:00",
+              "expDate": "2037-01-01T00:00:00",
+              "addrType": 6010506003,
+              "addressInfo": {
+                "addrId": 8010715000628505,
+                "addrClass": "S",
+                "addr1": "ایران",
+                "addr2": "تهران",
+                "addr3": "تهران- تجریش",
+                "usAddr": "خ پیروزی خ5نیروی هوائی ک 36/5پ12ط3",
+                "postalCode": 1734863569
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
